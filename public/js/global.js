@@ -43,7 +43,8 @@ $(document).ready(function(){
 
 
 	$(".verb").typed({
-		strings: ['imagine','make','code','design','invent'],
+		//place space before strings otherwise doesnt render with html tags properly
+		strings: [' <span class="imagine">imagine</span>',' <span class="make">make</span>',' <span class="code">code</span>',' <span class="design">design</span>',' <span class="invent">invent</span>'],
 		typeSpeed: 80,
 		backSpeed: 30,
 		backDelay: 1500,

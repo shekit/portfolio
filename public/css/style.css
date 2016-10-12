@@ -1,3 +1,9 @@
+/** CAROUSEL **/
+
+.carousel {
+    margin-bottom: 20px;
+}
+
 .carousel-static-image {
     position: absolute;
     top:0;
@@ -11,19 +17,91 @@
     width: 250px;
 }
 
-@media (max-width: 768px){
-    .shirts {
-        width: 200px;
-    }
+
+/** TYPED AREA **//
+h2 {
+    font-weight: 300;
 }
 
-.text-center{
-    text-align: center;
+.verb-title {
+    font-size: 40px;
+    font-weight: 300;
 }
 
 .verb {
     border-bottom:3px dotted #ccc; 
 }
+
+.imagine, .make, .invent, .code, .design{
+    font-weight: bold;
+}
+
+.imagine {
+    color: #f05a28;
+}
+
+.make{
+    color: #7546b2;
+}
+
+.invent {
+    color: #2cb5e5;
+}
+
+.code {
+    color: #39b54a;
+}
+
+.design {
+    color: #ef4136;
+}
+
+
+/** CATEGORY LINKS **/
+
+#category-links {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.project-category{
+    color: #bbb;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+}
+
+.project-category:hover{
+    text-decoration: none;
+    color: #999;
+}
+
+.active {
+    color: #999;
+}
+
+.all-link:hover,  .all-link.active{
+    border-color: #f05a28;
+}
+
+.make-link:hover, .make-link.active{
+    border-color: #7546b2;
+}
+
+.code-link:hover, .code-link.active{
+    border-color: #39b54a;
+}
+
+.design-link:hover, .design-link.active {
+    border-color: #ef4136;
+}
+
+.play-link:hover, .play-link.active {
+    border-color: #2cb5e5;
+}
+
+/** PROJECT LIST **/
 
 .project-item {
     text-align: center;
@@ -51,4 +129,11 @@
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+
+@media (max-width: 768px){
+    .shirts {
+        width: 200px;
+    }
 }
