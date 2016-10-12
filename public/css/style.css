@@ -32,11 +32,11 @@ h2 {
     border-bottom:3px dotted #ccc; 
 }
 
-.imagine, .make, .invent, .code, .design{
+.question, .make, .invent, .code, .design{
     font-weight: bold;
 }
 
-.imagine {
+.question {
     color: #f05a28;
 }
 
