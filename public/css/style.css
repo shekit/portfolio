@@ -1,0 +1,54 @@
+.carousel-static-image {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.shirts {
+    width: 250px;
+}
+
+@media (max-width: 768px){
+    .shirts {
+        width: 200px;
+    }
+}
+
+.text-center{
+    text-align: center;
+}
+
+.verb {
+    border-bottom:3px dotted #ccc; 
+}
+
+.project-item {
+    text-align: center;
+}
+
+/* TYPED JS ANIMATED CURSOR */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

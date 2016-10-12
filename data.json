@@ -1,0 +1,50 @@
+//handlebars -m handlebars/> public/js/templates.js
+
+// I invent/design/code/make/build/imagine things
+
+/*
+	List of things:
+	
+	- peeqo
+	- dragon vr
+	- glove phone
+	- lumen
+	- hydrate.me
+	- times square outrage
+	- instalive
+	- peeqo
+	- tennis gif
+	- flappy iron man
+	- pitch purrfect
+	- grep
+	- twitter wars
+	- font fling
+	- imly
+	- ceven
+	- gif it to me
+	- flickr instant
+	- tom igoe rocks
+	- logos - all bunched together
+	- videos - all bunched together mother teresa/imly/social access/itp commercial
+	- Photography - all bunched together
+	- balsa cars - bunched together
+	- grafficars - bunched together
+
+*/
+
+{
+	"title":"",
+	"description":"",
+	"images":[
+		"",
+		""
+	],
+	"video":"",
+	"category":"",
+	"tags":"",
+	"press":[
+		"",
+		""
+	],
+	"link":""
+}
