@@ -13,7 +13,7 @@
     z-index: -1;
 }
 
-.shirts {
+.lego-image {
     width: 250px;
 }
 
@@ -64,6 +64,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
+    margin-bottom: 30px;
 }
 
 .project-category{
@@ -103,8 +104,20 @@ h2 {
 
 /** PROJECT LIST **/
 
-.project-item {
+#project-list {
     text-align: center;
+}
+
+.project-item-image {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project-item-title {
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 /* TYPED JS ANIMATED CURSOR */
