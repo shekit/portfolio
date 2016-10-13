@@ -1,0 +1,60 @@
+<div class='row' id='project-detail'>
+	<a href='#' class='close-project-detail'><span class='close'>&times;</span></a>
+	<div class='col-md-5 project-detail-container'>
+		{{#if title}}
+			<h2 class='project-detail-title'>{{title}}</h2>
+		{{/if}}
+		{{#if description}}
+			<p class='project-detail-description'>{{description}}</p>
+		{{/if}}
+		{{#if role}}
+			<h3 class='project-detail-subheader'>Role</h3>
+			<ul class='list-inline project-detail-role'>
+				{{#each role}}
+					<li>{{this}}</li>
+				{{/each}}
+			</ul>
+		{{/if}}
+		{{#if press}}
+			<h3 class='project-detail-subheader'>Press</h3>
+			<ul class='list-inline'>
+				{{#each press}}
+				<li><a href='{{link}}' target="_blank">{{publication}}</a></li> |
+				{{/each}}
+			</ul>
+		{{/if}}
+	</div><!-- end of col-md-5 -->
+	<div class='col-md-7'>
+		{{#if media}}
+		<div id='carousel-project-detail' class='carousel slide'>
+			<div class='carousel-inner' role='listbox'>
+				{{#each media}}
+					{{#ifEqual @index 0}}
+					<div class='item active'>
+					{{else}}
+					<div class='item'>
+					{{/ifEqual}}
+
+						{{#ifEqual type "image"}}
+						<img src='{{path}}' class='center-block img-responsive'>
+						{{/ifEqual}}
+						{{#ifEqual type "video"}}
+						<div class='responsive-iframe'>
+							<iframe src="{{path}}" frameborder="0" allowfullscreen></iframe>
+						</div>
+						{{/ifEqual}}
+						<div class='carousel-caption'>
+							<p>{{caption}}</p>
+						</div>
+
+					</div>
+				{{/each}}
+			</div> <!-- end of carousel inner -->
+			{{#ifMoreThanOne media}}
+				<a class="left carousel-control" href="#carousel-project-detail" role="button" data-slide="prev"><span class='carousel-arrow prev'>&lsaquo;</span></a>
+			  	<a class="right carousel-control" href="#carousel-project-detail" role="button" data-slide="next"><span class='carousel-arrow next'>&rsaquo;</span></a>
+			{{/ifMoreThanOne}}
+		</div><!-- end of carousel project detail -->
+		{{/if}}
+	</div><!-- end of col-md-7 -->
+</div> <!-- end of id project detail -->

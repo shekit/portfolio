@@ -1,14 +1,14 @@
 window.projects = [
 	{
 		"title":"Peeqo",
+		"slug":""
 		"description":"",
 		"thumbnail":"",
-		"images":["",""],
-		"video":["",""],
+		"media":[{"path":"","caption":"","type":"image"},{}], //include embed link without iframe stufffor videos
 		"category":["",""],
 		"tags":["",""],
 		"role":["",""],
-		"press":["",""]
+		"press":[{"publication":"","link":""},{}]
 	},
 	{
 

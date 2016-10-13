@@ -22,6 +22,15 @@ Handlebars.registerHelper('ifIn', function(a,b,opts){
 	}
 })
 
+Handlebars.registerHelper('ifMoreThanOne', function(a,opts){
+	if(a.length>1){
+		return opts.fn(this)
+	}
+	else {
+		return opts.inverse(this)
+	}
+})
+
 Handlebars.registerHelper('ifDivisible', function(a,b,opts){
 	if(a%3==0){
 		return opts.fn(this)

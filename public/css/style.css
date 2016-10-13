@@ -138,6 +138,9 @@ h2 {
     position: relative;
     height: 0;
     overflow: hidden;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
     padding-bottom: 56.25%;
 }
 
