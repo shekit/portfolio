@@ -41,6 +41,13 @@ $(document).ready(function(){
 		keyboard: false
 	})
 
+	$("#carousel-project-detail").carousel({
+		interval: false,
+		pause: true,
+		wrap: true,
+		keyboard: false
+	})
+
 
 	$(".verb").typed({
 		//place space before strings otherwise doesnt render with html tags properly

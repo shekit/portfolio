@@ -1,6 +1,6 @@
 /** CAROUSEL **/
 
-.carousel {
+#carousel {
     margin-bottom: 20px;
 }
 
@@ -73,32 +73,33 @@ h2 {
     border-bottom: 3px solid transparent;
 }
 
-.project-category:hover{
+.project-category:hover, .project-category:focus{
     text-decoration: none;
     color: #999;
+    outline: none;
 }
 
 .active {
     color: #999;
 }
 
-.all-link:hover,  .all-link.active{
+.all-link:hover, .all-link:focus,  .all-link.active{
     border-color: #f05a28;
 }
 
-.make-link:hover, .make-link.active{
+.make-link:hover, .make-link:focus, .make-link.active{
     border-color: #7546b2;
 }
 
-.code-link:hover, .code-link.active{
+.code-link:hover, .code-link:focus, .code-link.active{
     border-color: #39b54a;
 }
 
-.design-link:hover, .design-link.active {
+.design-link:hover, .design-link:focus, .design-link.active {
     border-color: #ef4136;
 }
 
-.play-link:hover, .play-link.active {
+.play-link:hover, .play-link:focus, .play-link.active {
     border-color: #2cb5e5;
 }
 
@@ -118,6 +119,78 @@ h2 {
     margin: 0;
     font-weight: 300;
     font-size: 16px;
+}
+
+/* PROJECT DETAIL */
+
+#project-detail {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 30px 0;
+    position: relative;
+}
+
+.close-project-detail {
+    color: #999;
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    top:5px;
+    z-index: 5;
+}
+
+.close-project-detail:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+.project-detail-container {
+    text-align: left;
+    padding-left: 60px;
+}
+
+.project-detail-title{
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.project-detail-description{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.project-detail-subheader {
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.project-detail-role li{
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border:1px solid #ddd;
+    color: #ef4136;
+    margin-bottom: 5px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-repeat: none;
+}
+
+.carousel-control {
+    top: 40%;
+    font-weight: 300;
+    font-size: 70px;
+    color: #666;
+    opacity: 0.8;
+    text-shadow: none;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    color: #333;
 }
 
 /** CONTACT **/
@@ -190,9 +263,14 @@ h2 {
     100% { opacity:1; }
 }
 
+/** MEDIA QUERIES **/
 
 @media (max-width: 768px){
     .lego-image {
         width: 200px;
+    }
+
+    .project-detail-container {
+        text-align: center;
     }
 }
