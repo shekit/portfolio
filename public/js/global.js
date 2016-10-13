@@ -42,6 +42,8 @@ Handlebars.registerHelper('ifDivisible', function(a,b,opts){
 $(document).ready(function(){
 
 	var lastSelectedCategory = 'all'
+	var projectListContainer = $("#project-list")
+	var projectDetailContainer = $("#project-detail-wrapper")
 
 	$("#carousel").carousel({
 		interval: false,
@@ -56,7 +58,6 @@ $(document).ready(function(){
 		wrap: true,
 		keyboard: false
 	})
-
 
 	$(".verb").typed({
 		//place space before strings otherwise doesnt render with html tags properly
@@ -77,11 +78,6 @@ $(document).ready(function(){
 			
 		}
 	})
-	
-
-	var projectListContainer = $("#project-list")
-	var projectDetailContainer = $("#project-detail-wrapper")
-
 
 	function showProjects(projects){
 		var listHtml = Handlebars.templates.projectList({projects:projects})
