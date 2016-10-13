@@ -1,34 +1,38 @@
 <div class='row' id='project-detail'>
-	<a href='#' class='close-project-detail'><span class='close'>&times;</span></a>
+	<a href='#' class='project-detail-close'><span class='close'>&times;</span></a>
 	<div class='col-md-5 project-detail-container'>
-		{{#if title}}
-			<h2 class='project-detail-title'>{{title}}</h2>
+		{{#if project.title}}
+			<h2 class='project-detail-title'>{{project.title}}</h2>
 		{{/if}}
-		{{#if description}}
-			<p class='project-detail-description'>{{description}}</p>
+		{{#if project.description}}
+			<p class='project-detail-description'>{{project.description}}</p>
 		{{/if}}
-		{{#if role}}
+		{{#if project.link}}
+			<h3 class='project-detail-subheader'>Project Link</h3>
+			<p><a href='{{project.link.link}}' target="_blank" class='project-detail-link'>{{project.link.display}}</a>
+		{{/if}}
+		{{#if project.role}}
 			<h3 class='project-detail-subheader'>Role</h3>
 			<ul class='list-inline project-detail-role'>
-				{{#each role}}
+				{{#each project.role}}
 					<li>{{this}}</li>
 				{{/each}}
 			</ul>
 		{{/if}}
-		{{#if press}}
+		{{#if project.press}}
 			<h3 class='project-detail-subheader'>Press</h3>
 			<ul class='list-inline'>
-				{{#each press}}
+				{{#each project.press}}
 				<li><a href='{{link}}' target="_blank">{{publication}}</a></li> |
 				{{/each}}
 			</ul>
 		{{/if}}
 	</div><!-- end of col-md-5 -->
 	<div class='col-md-7'>
-		{{#if media}}
+		{{#if project.media}}
 		<div id='carousel-project-detail' class='carousel slide'>
 			<div class='carousel-inner' role='listbox'>
-				{{#each media}}
+				{{#each project.media}}
 					{{#ifEqual @index 0}}
 					<div class='item active'>
 					{{else}}
@@ -50,7 +54,7 @@
 					</div>
 				{{/each}}
 			</div> <!-- end of carousel inner -->
-			{{#ifMoreThanOne media}}
+			{{#ifMoreThanOne project.media}}
 				<a class="left carousel-control" href="#carousel-project-detail" role="button" data-slide="prev"><span class='carousel-arrow prev'>&lsaquo;</span></a>
 			  	<a class="right carousel-control" href="#carousel-project-detail" role="button" data-slide="next"><span class='carousel-arrow next'>&rsaquo;</span></a>
 			{{/ifMoreThanOne}}

@@ -8,7 +8,8 @@ window.projects = [
 		"category":["",""],
 		"tags":["",""],
 		"role":["",""],
-		"press":[{"publication":"","link":""},{}]
+		"press":[{"publication":"","link":""},{}],
+		"link":{"display":"","link":"http://"}
 	},
 	{
 

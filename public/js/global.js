@@ -79,35 +79,86 @@ $(document).ready(function(){
 	})
 	
 
+	var projectListContainer = $("#project-list")
+	var projectDetailContainer = $("#project-detail-wrapper")
+
+
+	function showProjects(projects){
+		var listHtml = Handlebars.templates.projectList({projects:projects})
+		projectListContainer.html(listHtml)
+	}
+	// SHOW ALL PROJECTS
+	/*
+	
+	showProjects(projects);
 	
 
-	var list = [{"title":"row1a"},{"title":"row1b"},{"title":"row1c"},{"title":"row2a"},{"title":"row2b"},{"title":"row2c"},{"title":"row3a"}]
+	// SHOW PARTICULAR PROJECT
 
-	//var html = Handlebars.templates.projectList({list:list})
+	$("body").on('click','.project-item-link', function(event){
+		event.preventDefault();
 
-	//$("#project-list").html(html)
+		var projectSlug = $(this).data('id')
+		var project = null;
+
+		for(var i in projects){
+			if(projects[i].slug == projectSlug){
+				project = projects[i];
+			}
+		}
+
+		var projectHtml = Handlebars.templates.projectDetail({project:project});
+		projectDetailContainer.html(projectHtml)
+
+		scrollToPlace();
+	})
+	
+
+	function scrollToPlace(){
+		$('html, body').animate({
+			scrollTop: projectDetailContainer.offset().top
+		},'fast')
+	}
+
+	// CLOSE PROJECT
+
+	$("body").on('click','.project-detail-close', function(event){
+		event.preventDefault();
+
+		$(this).parent('#project-detail').remove();
+	})
+	*/
 
 	$("body").on('click', '.project-category', function(event){
 		event.preventDefault();
 
 		// save appropriate category to go back to
+		var category = $(this).data('id');
 
-		lastSelectedCategory = $(this).attr('data-id')
+		makeActive(category);
+		console.log(category)
+		lastSelectedCategory = category;
 		//load appropriate category
 
-		console.log($(this).attr('data-id'))
+		var selectedProjects = null;
+
+		for(var i in projects){
+			if(projects[i].category.indexOf(category)>-1){
+				selectedProjects.push(projects[i])
+			}
+		}
+
+		showProjects(selectedProjects);
+
 	})
 
 	function makeActive(dataId){
 		//make all categories inactive
 		// add active to clicked category
+		$(".project-category").removeClass('active');
+		$('*[data-id="'+dataId+'"').addClass('active');
 	}
 
-	$("body").on('click', '.project-item', function(event){
-		event.preventDefault();
-
-		//load specific project
-	})
 
 
 })

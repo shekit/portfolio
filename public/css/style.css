@@ -169,7 +169,7 @@ h2 {
     height: 500px;
 }*/
 
-.close-project-detail {
+.project-detail-close {
     color: #999;
     font-weight: 200;
     font-size: 40px;
@@ -179,7 +179,7 @@ h2 {
     z-index: 5;
 }
 
-.close-project-detail:hover, .close-project-detail:focus {
+.project-detail-close:hover, .project-detail-close:focus {
     color: #666;
     text-decoration: none;
 }
@@ -196,7 +196,17 @@ h2 {
 
 .project-detail-description{
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.project-detail-link{
+    font-size: 16px;
+    color: #ef4136;
+}
+
+.project-detail-link:hover{
+    text-decoration: none;
+    color: #d73a30;
 }
 
 .project-detail-subheader {
@@ -210,7 +220,7 @@ h2 {
     padding: 5px 10px;
     border-radius: 50px;
     border:1px solid #ddd;
-    color: #ef4136;
+    color: #999;
     margin-bottom: 5px;
 }
 
