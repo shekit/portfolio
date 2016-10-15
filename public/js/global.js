@@ -132,7 +132,7 @@ $(document).ready(function(){
 		var category = $(this).data('id');
 
 		makeActive(category);
-		console.log(category)
+
 		lastSelectedCategory = category;
 		//load appropriate category
 
