@@ -118,7 +118,7 @@ $(document).ready(function(){
 		event.preventDefault();
 
 		var projectSlug = $(this).data('id')
-		console.log(projectSlug)
+
 		var project = null;
 
 		for(var i in projects){
@@ -157,6 +157,9 @@ $(document).ready(function(){
 		makeActive(category);
 
 		lastSelectedCategory = category;
+
+		$('#project-detail').remove();
+
 		//load appropriate category
 		if(category == 'all'){
 			showProjects(projects);
@@ -173,6 +176,8 @@ $(document).ready(function(){
 			showProjects(selectedProjects);
 			loadImageCheck();
 		}
+
+
 		
 		
 	})
