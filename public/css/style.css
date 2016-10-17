@@ -162,10 +162,10 @@ h2 {
 
 #project-detail {
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
     padding: 30px 0;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #project-detail img, iframe{
@@ -291,11 +291,13 @@ h2 {
     color: white;
     opacity: 0.8;
     text-shadow: 0 0 3px black;
+    pointer-events: none;
 }
 
 .carousel-arrow {
     position: absolute;
     top: 40%;
+    pointer-events: all;
 }
 
 .carousel-arrow.prev{
