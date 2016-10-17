@@ -437,7 +437,7 @@ window.projects = [
 			], 
 		"category":["play"],
 		"tags":[""], // not used yet
-		"builtWith":[""],
+		"builtWith":[],
 		"role":["food styling","photography"],
 		"press":[],
 		"link":[]
