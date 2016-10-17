@@ -40,12 +40,13 @@ Handlebars.registerHelper('ifDivisible', function(a,b,opts){
 })
 
 $(document).ready(function(){
-
+	var projects = window.projects;
 	var lastSelectedCategory = 'all'
 	var projectListContainer = $("#project-list")
 	var projectDetailContainer = $("#project-detail-wrapper")
+	var legoCarousel = $("#carousel")
 
-	$("#carousel").carousel({
+	legoCarousel.carousel({
 		interval: false,
 		pause: null,
 		wrap: true,
@@ -59,35 +60,57 @@ $(document).ready(function(){
 		keyboard: false
 	})
 
-	$(".verb").typed({
-		//place space before strings otherwise doesnt render with html tags properly
-		strings: [' <span class="question">question</span>',' <span class="make">make</span>',' <span class="code">code</span>',' <span class="design">design</span>',' <span class="invent">invent</span>'],
-		typeSpeed: 80,
-		backSpeed: 30,
-		backDelay: 1500,
-		loop: true,
-		showCursor: true,
-		preStringTyped: function(curStringPos){
+	// only start typing and carousel once images have loaded
+	legoCarousel.imagesLoaded().always(startTyping);
 
-			$('#carousel').carousel('next')
-			
-			if(curStringPos == 2){
-				// remove first blank png so that it doesnt show again
-				$("#placeholder-slide").remove();
+	function startTyping(){
+		$(".verb").typed({
+			//place space before strings otherwise doesnt render with html tags properly
+			strings: [' <span class="question">question</span>',' <span class="make">make</span>',' <span class="code">code</span>',' <span class="design">design</span>',' <span class="invent">invent</span>'],
+			typeSpeed: 80,
+			backSpeed: 30,
+			backDelay: 1500,
+			loop: true,
+			showCursor: true,
+			preStringTyped: function(curStringPos){
+
+				$('#carousel').carousel('next')
+				
+				if(curStringPos == 2){
+					// remove first blank png so that it doesnt show again
+					$("#placeholder-slide").remove();
+				}
+				
 			}
-			
-		}
-	})
-
+		})
+	}
+	
+	// SHOW ALL PROJECTS
 	function showProjects(projects){
 		var listHtml = Handlebars.templates.projectList({projects:projects})
 		projectListContainer.html(listHtml)
 	}
-	// SHOW ALL PROJECTS
-	/*
 	
 	showProjects(projects);
+	loadImageCheck();
 	
+	// IMAGE LOADING
+
+	function loadImageCheck(){
+		projectListContainer.imagesLoaded().progress(onImageLoaded);
+	}
+	
+
+	function onImageLoaded(imgLoad, image){
+
+		var parentLink = $(image.img).parent();
+		parentLink.removeClass('is-loading')
+
+		if(!image.isLoaded){
+			parentLink.addClass('loading-failed')
+			$(image.img).remove();
+		}
+	}
 
 	// SHOW PARTICULAR PROJECT
 
@@ -95,6 +118,7 @@ $(document).ready(function(){
 		event.preventDefault();
 
 		var projectSlug = $(this).data('id')
+		console.log(projectSlug)
 		var project = null;
 
 		for(var i in projects){
@@ -123,7 +147,6 @@ $(document).ready(function(){
 
 		$(this).parent('#project-detail').remove();
 	})
-	*/
 
 	$("body").on('click', '.project-category', function(event){
 		event.preventDefault();
@@ -135,17 +158,23 @@ $(document).ready(function(){
 
 		lastSelectedCategory = category;
 		//load appropriate category
-
-		var selectedProjects = null;
-
-		for(var i in projects){
-			if(projects[i].category.indexOf(category)>-1){
-				selectedProjects.push(projects[i])
-			}
+		if(category == 'all'){
+			showProjects(projects);
 		}
+		else {
+			var selectedProjects = [];
 
-		showProjects(selectedProjects);
+			for(var i in projects){
+				if(projects[i].category.indexOf(category)>-1){
+					selectedProjects.push(projects[i])
+				}
+			}
 
+			showProjects(selectedProjects);
+			loadImageCheck();
+		}
+		
+		
 	})
 
 	function makeActive(dataId){

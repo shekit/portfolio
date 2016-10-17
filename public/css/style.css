@@ -64,7 +64,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .project-category{
@@ -109,16 +109,52 @@ h2 {
     text-align: center;
 }
 
+.is-loading {
+    height: 250px;
+    width: 300px;
+    background-color: #eee;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/loader.gif');
+    background-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.loading-failed {
+    height: 250px;
+    width: 300px;
+    background-color: #eee;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/loading-failed.png');
+    background-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
 .project-item-image {
     border: 1px solid #ccc;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .project-item-title {
     margin: 0;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ellipsis{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* PROJECT DETAIL */
@@ -128,6 +164,7 @@ h2 {
     border-bottom: 1px solid #ddd;
     padding: 30px 0;
     position: relative;
+    margin-bottom: 20px;
 }
 
 #project-detail img, iframe{
@@ -215,6 +252,22 @@ h2 {
     margin-bottom: 20px;
 }
 
+.project-detail-subheader:after {
+    content: '';
+    width: 40px;
+    display: block;
+    height: 1px;
+    border-bottom: 2px solid #ef4136;
+    text-align: left;
+    margin:10px 0;
+}
+
+.strikethrough {
+    color:#ef4136;
+    font-size: 16px;
+    text-decoration:line-through;
+}
+
 .project-detail-role li{
     background: #eee;
     padding: 5px 10px;
@@ -222,6 +275,7 @@ h2 {
     border:1px solid #ddd;
     color: #999;
     margin-bottom: 5px;
+    text-transform: capitalize;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -233,14 +287,14 @@ h2 {
     top: 0;
     font-weight: 300;
     font-size: 70px;
-    color: #666;
+    color: white;
     opacity: 0.8;
-    text-shadow: none;
+    text-shadow: 0 0 3px black;
 }
 
 .carousel-arrow {
     position: absolute;
-    top: 190px;
+    top: 40%;
 }
 
 .carousel-arrow.prev{
@@ -252,7 +306,7 @@ h2 {
 }
 
 .carousel-control:hover, .carousel-control:focus {
-    color: #333;
+    color: white;
 }
 
 /** CONTACT **/
@@ -327,12 +381,26 @@ h2 {
 
 /** MEDIA QUERIES **/
 
+@media(max-width: 992px){
+    .project-detail-container {
+        text-align: center;
+    }
+
+    .project-detail-subheader:after{
+        text-align: center;
+        margin: 10px auto 0;
+
+    }
+}
+
 @media (max-width: 768px){
     .lego-image {
         width: 200px;
     }
 
-    .project-detail-container {
-        text-align: center;
+    .carousel-arrow {
+        top: 35%;
     }
+
+    
 }

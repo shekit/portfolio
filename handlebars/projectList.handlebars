@@ -1,6 +1,6 @@
 {{#each projects}}
 	<div class='col-xs-12 col-sm-6 col-md-4'>
-		<a href='#' class='project-item-link' data-id='{{slug}}'><img src='{{thumbnail}}' class='center-block project-item-image'></a>
-		<h3 class='project-item-title'>{{title}}</h3>
+		<a href='#' class='project-item-link is-loading' data-id='{{slug}}'><img src='{{thumbnail}}' class='center-block project-item-image'></a>
+		<h3 class='project-item-title'><div class='ellipsis'>{{title}}</div></h3>
 	</div>
 {{/each}}

@@ -9,7 +9,19 @@
 		{{/if}}
 		{{#if project.link}}
 			<h3 class='project-detail-subheader'>Project Link</h3>
-			<p><a href='{{project.link.link}}' target="_blank" class='project-detail-link'>{{project.link.display}}</a>
+			{{#ifEqual project.link.status 'active'}}
+			<p><a href='{{project.link.link}}' target="_blank" class='project-detail-link'>{{project.link.display}}</a></p>
+			{{else}}
+			<p class='strikethrough'>{{project.link.link}}</p>
+			{{/ifEqual}}
+		{{/if}}
+		{{#if project.builtWith}}
+			<h3 class='project-detail-subheader'>Built with</h3>
+			<ul class='list-inline project-detail-role'>
+				{{#each project.builtWith}}
+					<li>{{this}}</li>
+				{{/each}}
+			</ul>
 		{{/if}}
 		{{#if project.role}}
 			<h3 class='project-detail-subheader'>Role</h3>
