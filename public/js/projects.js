@@ -75,7 +75,7 @@ window.projects = [
 	},
 
 	{
-		"title":"Outrage Machine(Times Square)",
+		"title":"Outrage Machine (Times Square)",
 		"slug":"outrage-machine",
 		"description":"Aimed at interrogating social outrage through engaging screen based interactive storytelling experiences, onlookers could text in 'what outraged them' and see their name and outrage appear on the large Viacom screens in Times Square.",
 		"thumbnail":"./public/img/thumbnails/outrage-machine.gif",
