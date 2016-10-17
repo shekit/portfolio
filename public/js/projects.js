@@ -255,7 +255,7 @@ window.projects = [
 		"builtWith":["node.js","javascript","twitter"],
 		"role":["full stack","concept"],
 		"press":[],
-		"link":{"display":"twitterWars.us","link":"http://twitterwars.us","status":"active"}
+		"link":{"display":"twitterWars.us","link":"http://twitterwars.us","status":"inactive"}
 	},
 
 	{
