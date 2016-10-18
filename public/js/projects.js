@@ -269,7 +269,7 @@ window.projects = [
 		"builtWith":["node.js","javascript"],
 		"role":["full stack","design","concept"],
 		"press":[],
-		"link":{"display":"GifItToMeNow.com","link":"http://gitiftomenow.com","status":"inactive"}
+		"link":{"display":"GifItTo.Me","link":"http://gifitto.me","status":"inactive"}
 	},
 
 	{
