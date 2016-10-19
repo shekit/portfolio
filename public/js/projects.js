@@ -259,7 +259,7 @@ window.projects = [
 	},
 
 	{
-		"title":"Gif It To Me Now",
+		"title":"Gif It To Me",
 		"slug":"gif-it-to-me-now",
 		"description":"Type out what you want your gif to be and this app creates a gif from that phrase. It searches images for each word you enter and combines them into your own unique gif overlayed with your text",
 		"thumbnail":"./public/img/thumbnails/gif-it-to-me-now.gif",
@@ -269,7 +269,7 @@ window.projects = [
 		"builtWith":["node.js","javascript"],
 		"role":["full stack","design","concept"],
 		"press":[],
-		"link":{"display":"GifItTo.Me","link":"http://gifitto.me","status":"inactive"}
+		"link":{"display":"GifItTo.Me","link":"https://gifitto.me","status":"active"}
 	},
 
 	{
