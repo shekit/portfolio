@@ -18,6 +18,8 @@ window.projects = [
 		"role":["all code","3D modelling","animation","unity","fabrication","sensors","concept","experience"],
 		"press":[
 			{"publication":"VRScout","link":"http://vrscout.com/news/fly-a-dragon-in-vr/"},
+			{"publication":"Engadget","link":"http://de.engadget.com/2016/11/03/bastelprojekt-rohlstuhldrache-fur-vr-abenteuer/"},
+			{"publication":"Make:","link":"https://makezine.com/2016/11/03/climb-aboard-dragon-play-virtual-reality/"},
 			{"publication":"Forbes","link":"http://www.forbes.com/sites/stevenrosenbaum/2015/12/24/can-a-robot-find-you-love-nyus-itp-winter-show-says-it-can/#23af74fb39cd"},
 			{"publication":"NYC Media Lab","link":"https://medium.com/@nycmedialab/vr-demos-take-flight-in-miami-98b4521a41a3#.qcik9jdc1"},
 			{"publication":"Techsite.io","link":"http://www.techsite.io/p/213957"}
