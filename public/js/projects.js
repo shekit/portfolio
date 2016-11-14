@@ -18,6 +18,10 @@ window.projects = [
 		"role":["all code","3D modelling","animation","unity","fabrication","sensors","concept","experience"],
 		"press":[
 			{"publication":"VRScout","link":"http://vrscout.com/news/fly-a-dragon-in-vr/"},
+			{"publication":"Prosthetic Knowledge","link":"http://prostheticknowledge.tumblr.com/post/152646625726/dragon-rider-virtual-reality-experience-by"},
+			{"publication":"Fast Co Design","link":"https://www.fastcodesign.com/3065395/researchers-have-done-it-theyve-made-the-most-humiliating-vr-experience-possible"},
+			{"publication":"DailyMail UK","link":"http://www.dailymail.co.uk/news/article-3931622/Virtual-insanity-Hilarious-footage-shows-gamers-rocking-forth-20ft-long-wooden-DRAGON-wearing-VR-headsets.html"},
+			{"publication":"Vocativ","link":"http://www.vocativ.com/374044/vr-dragon-game/"},
 			{"publication":"Engadget","link":"http://de.engadget.com/2016/11/03/bastelprojekt-rohlstuhldrache-fur-vr-abenteuer/"},
 			{"publication":"Make:","link":"https://makezine.com/2016/11/03/climb-aboard-dragon-play-virtual-reality/"},
 			{"publication":"Forbes","link":"http://www.forbes.com/sites/stevenrosenbaum/2015/12/24/can-a-robot-find-you-love-nyus-itp-winter-show-says-it-can/#23af74fb39cd"},
