@@ -48,6 +48,8 @@ window.projects = [
 			{"publication":"Gizmodo","link":"http://www.gizmodo.com.au/2016/12/make-a-robot-that-will-scream-gifs-at-you/"},
 			{"publication":"Laughing Squid","link":"http://laughingsquid.com/peeqo-a-cute-interactive-robot-that-communicates-through-gifs-and-movement/"},
 			{"publication":"Arduino","link":"https://blog.arduino.cc/2016/12/08/peeqo-is-a-desktop-bot-that-communicates-through-gifs/"},
+			{"publication":"Rapsberry Pi","link":"https://www.raspberrypi.org/blog/peeqo-the-gif-bot/#comment-1266451"},
+			{"publication":"Adafruit","link":"https://blog.adafruit.com/2016/12/09/peeqo-the-gif-bot-piday-raspberrypi-raspberry_pi/"},
 			{"publication":"Daily Dot","link":"http://www.dailydot.com/debug/abhishek-singh-peeqo-robot-gifs-reddit/"}
 		],
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
