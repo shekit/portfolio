@@ -50,7 +50,8 @@ window.projects = [
 			{"publication":"Arduino","link":"https://blog.arduino.cc/2016/12/08/peeqo-is-a-desktop-bot-that-communicates-through-gifs/"},
 			{"publication":"Rapsberry Pi","link":"https://www.raspberrypi.org/blog/peeqo-the-gif-bot/#comment-1266451"},
 			{"publication":"Adafruit","link":"https://blog.adafruit.com/2016/12/09/peeqo-the-gif-bot-piday-raspberrypi-raspberry_pi/"},
-			{"publication":"Daily Dot","link":"http://www.dailydot.com/debug/abhishek-singh-peeqo-robot-gifs-reddit/"}
+			{"publication":"Daily Dot","link":"http://www.dailydot.com/debug/abhishek-singh-peeqo-robot-gifs-reddit/"},
+			{"publication":"Popular Mechanics","link":"http://www.popularmechanics.com/technology/robots/a24239/diy-robot-gifs/"}
 		],
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
 	},
