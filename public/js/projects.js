@@ -36,22 +36,26 @@ window.projects = [
 		"slug":"peeqo",
 		"description":"Peeqo is a personal desktop robotic assistant who expresses himself through GIFs.Designed for people who spend long hours at their desks, this pint sized robot responds to your voice to help with essential work tasks and provides little moments of delight and entertainment often needed to get through the day.",
 		"thumbnail":"./public/img/thumbnails/peeqo.gif",
-		"media":[{"path":"https://player.vimeo.com/video/166727389","caption":"","type":"video"}], //include embed link without iframe stufffor videos
+		"media":[{"path":"https://www.youtube.com/embed/ApAzIJ3jQtw?ecver=1","caption":"","type":"video"},{"path":"https://player.vimeo.com/video/166727389","caption":"","type":"video"}], //include embed link without iframe stufffor videos
 		"category":["make","design"],
 		"tags":[""], // not used yet
 		"builtWith":["raspberry pi","arduinos","fusion 360","3D printers","electron","node","javascript","python"],
 		"role":["3D modelling","3D printing","full stack","sensors","circuit design","fabrication","design","concept","animation","character design"],
 		"press":[
+			{"publication":"Techcrunch", "link":"https://techcrunch.com/2017/01/09/peeqo-is-a-robot-that-responds-entirely-in-gifs/"},
+			{"publication":"Recode", "link":"https://www.recode.net/2017/1/9/14216230/voice-activated-robot-gifs-diy-reddit"},
 			{"publication":"Top of Reddit!","link":"https://www.reddit.com/r/DIY/comments/5h15f4/i_built_a_desktop_robot_that_responds_entirely_in/?ref=share&ref_source=link"},
 			{"publication":"The Next Web","link":"http://thenextweb.com/artificial-intelligence/2016/12/07/meet-peeqo-the-diy-robot-that-communicates-via-gif/"},
 			{"publication":"Mashable","link":"http://mashable.com/2016/12/07/gif-bot-is-here/#ZwwT0JL5Ukqw"},
-			{"publication":"Gizmodo","link":"http://www.gizmodo.com.au/2016/12/make-a-robot-that-will-scream-gifs-at-you/"},
+			{"publication":"Motherboard","link":"http://motherboard.vice.com/en_uk/read/this-sassy-little-robot-communicates-with-gifs"},
 			{"publication":"Laughing Squid","link":"http://laughingsquid.com/peeqo-a-cute-interactive-robot-that-communicates-through-gifs-and-movement/"},
 			{"publication":"Arduino","link":"https://blog.arduino.cc/2016/12/08/peeqo-is-a-desktop-bot-that-communicates-through-gifs/"},
 			{"publication":"Rapsberry Pi","link":"https://www.raspberrypi.org/blog/peeqo-the-gif-bot/#comment-1266451"},
 			{"publication":"Adafruit","link":"https://blog.adafruit.com/2016/12/09/peeqo-the-gif-bot-piday-raspberrypi-raspberry_pi/"},
 			{"publication":"Daily Dot","link":"http://www.dailydot.com/debug/abhishek-singh-peeqo-robot-gifs-reddit/"},
-			{"publication":"Popular Mechanics","link":"http://www.popularmechanics.com/technology/robots/a24239/diy-robot-gifs/"}
+			{"publication":"Popular Mechanics","link":"http://www.popularmechanics.com/technology/robots/a24239/diy-robot-gifs/"},
+			{"publication":"Cheezburger","link":"http://cheezburger.com/1818376/gifs-memes-robot-someone-made-a-robot-that-communicates-only-in-gifs"},
+			{"publication":"Gizmodo","link":"http://www.gizmodo.com.au/2016/12/make-a-robot-that-will-scream-gifs-at-you/"},
 		],
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
 	},
