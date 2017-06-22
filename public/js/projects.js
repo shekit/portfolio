@@ -1,5 +1,31 @@
 window.projects = [
 	{
+		"title":"Super Mario AR",
+		"slug":"super-mario",
+		"description":"I recreated the iconic first level World 1-1 from Super Mario Bros as a life size, first person AR experience using the Hololens.",
+		"thumbnail":"./public/img/thumbnails/mario.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/QN95nNDtxjo","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["code"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["unity3D","hololens","fusion360"],
+		"role":["all code","3D modeling","animation","unity","concept","experience"],
+		"press":[
+			{"publication":"Polygon","link":"https://www.polygon.com/2017/6/22/15855020/super-mario-bros-first-person-ar-hololens-demo"},
+			{"publication":"CNET","link":"https://www.cnet.com/news/super-mario-hololens-augmented-reality-first-person-abhishek-singh/"},
+			{"publication":"TNW","link":"https://thenextweb.com/augmented-reality/2017/06/21/super-mario-bros-in-ar-offers-a-peek-at-the-future-of-gaming/#.tnw_Qry1UR2Z"},
+			{"publication":"Mashable","link":"http://mashable.com/2017/06/22/super-mario-bros-hololens-central-park/#VR77YVU0ASqO"},
+			{"publication":"Eurogamers","link":"http://www.eurogamer.net/articles/2017-06-22-behold-super-mario-bros-world-1-1-reimagined-as-an-ar-game-for-hololens"},
+			{"publication":"UploadVR","link":"https://uploadvr.com/super-mario-bros-ar-hololens/"},
+			{"publication":"Motherboard","link":"https://motherboard.vice.com/en_us/article/bj84w3/watch-this-guy-become-super-mario-in-a-hololens-ar-game"},
+			{"publication":"Nerdist","link":"http://nerdist.com/super-mario-bros-ar-video/"},
+			{"publication":"VRScout", "link":"https://vrscout.com/news/super-mario-bros-hololens/"}
+			],
+		"link":[]
+	},
+	{
 		"title":"How to Ride a Dragon",
 		"slug":"dragon",
 		"description":"A 20 foot physical dragon is the controller for a dragon you are flying in a VR world. By using the reins and the movement on the physical dragon, you can navigate in realtime your virtual dragon through a magical and mythical world of floating islands.",
