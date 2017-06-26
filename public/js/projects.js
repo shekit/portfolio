@@ -2,7 +2,7 @@ window.projects = [
 	{
 		"title":"Super Mario AR",
 		"slug":"super-mario",
-		"description":"I recreated the iconic first level World 1-1 from Super Mario Bros as a life size, first person AR experience using the Hololens.",
+		"description":"I recreated the iconic first level World 1-1 from Super Mario Bros as a life size, first person AR experience using the Hololens. It went kinda viral.",
 		"thumbnail":"./public/img/thumbnails/mario.gif",
 		"media":[
 			{"path":"https://www.youtube.com/embed/QN95nNDtxjo","caption":"","type":"video"},
@@ -13,6 +13,17 @@ window.projects = [
 		"builtWith":["unity3D","hololens","fusion360"],
 		"role":["all code","3D modeling","animation","unity","concept","experience"],
 		"press":[
+			{"publication":"Kotaku","link":"http://kotaku.com/hololens-super-mario-bros-looks-dangerously-fun-1796332251"},
+			{"publication":"Techcrunch","link":"https://techcrunch.com/2017/06/23/watch-this-guy-play-super-mario-bros-irl-in-central-park-using-hololens/"},
+			{"publication":"Destructoid","link":"https://www.destructoid.com/this-augmented-reality-super-mario-game-is-going-to-kill-its-maker-444933.phtml"},
+			{"publication":"Time","link":"http://time.com/4830499/super-mario-bros-augmented-reality/"},
+			{"publication":"Mic","link":"https://mic.com/articles/180620/super-mario-bros-is-reimagined-in-augmented-reality-with-microsofts-hololens"},
+			{"publication":"FastCo","link":"https://www.fastcodesign.com/90130866/this-app-lets-you-play-super-mario-bros-in-the-real-world-and-its-incredible"},
+			{"publication":"Entrepreneur","link":"https://www.entrepreneur.com/article/296254"},
+			{"publication":"Engadget","link":"https://www.engadget.com/2017/06/23/super-mario-augmented-reality-hololens/"},
+			{"publication":"Uncrate","link":"http://uncrate.com/video/augmented-reality-super-mario-bros/"},
+			{"publication":"BGR","link":"http://bgr.com/2017/06/23/super-mario-bros-ar-demo-central-park/"},
+			{"publication":"Business Insider","link":"http://www.businessinsider.com/super-mario-bros-central-park-abhishek-singh-augmented-reality-video-2017-6"},
 			{"publication":"Polygon","link":"https://www.polygon.com/2017/6/22/15855020/super-mario-bros-first-person-ar-hololens-demo"},
 			{"publication":"CNET","link":"https://www.cnet.com/news/super-mario-hololens-augmented-reality-first-person-abhishek-singh/"},
 			{"publication":"TNW","link":"https://thenextweb.com/augmented-reality/2017/06/21/super-mario-bros-in-ar-offers-a-peek-at-the-future-of-gaming/#.tnw_Qry1UR2Z"},
@@ -21,7 +32,12 @@ window.projects = [
 			{"publication":"UploadVR","link":"https://uploadvr.com/super-mario-bros-ar-hololens/"},
 			{"publication":"Motherboard","link":"https://motherboard.vice.com/en_us/article/bj84w3/watch-this-guy-become-super-mario-in-a-hololens-ar-game"},
 			{"publication":"Nerdist","link":"http://nerdist.com/super-mario-bros-ar-video/"},
-			{"publication":"VRScout", "link":"https://vrscout.com/news/super-mario-bros-hololens/"}
+			{"publication":"VRScout", "link":"https://vrscout.com/news/super-mario-bros-hololens/"},
+			{"publication":"CNBC","link":"http://www.cnbc.com/2017/06/23/super-mario-bros-augmented-reality-game-built-by-abhishek-singh.html"},
+			{"publication":"PCMag","link":"http://www.pcmag.com/news/354554/watch-a-hololens-wearing-mario-galavant-through-central-park"},
+			{"publication":"TechInAsia","link":"https://www.techinasia.com/video-super-mario-in-ar"},
+			{"publication":"IGN","link":"https://www.facebook.com/ign/videos/10154912786046633/"},
+			{"publication":"Scoop Whoop","link":"https://www.facebook.com/Scoopwhoop/videos/662712040604559/"},
 			],
 		"link":[]
 	},
