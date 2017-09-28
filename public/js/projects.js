@@ -68,7 +68,7 @@ window.projects = [
 			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
 			
 			],
-		"link":[]
+		"link":{"display": "Instagif", "link": "https://imgur.com/a/CG9w4", "status":"active"}
 	},
 	{
 		"title":"Peeqo",
@@ -97,6 +97,25 @@ window.projects = [
 			{"publication":"Gizmodo","link":"http://www.gizmodo.com.au/2016/12/make-a-robot-that-will-scream-gifs-at-you/"},
 		],
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
+	},
+	{
+		"title":"Holo Messenger",
+		"slug":"holo-messenger",
+		"description":"Remember Princess Leia's classic holographic message from Star Wars? This app lets you record and send your own augmented reality holographic messages using your phone.",
+		"thumbnail":"./public/img/thumbnails/holo-messenger.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/cn2B-Iwsg4Y","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["code","play"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["unity3D","ARKit"],
+		"role":["all code","3D modeling","animation","unity","concept","experience"],
+		"press":[
+			{"publication":"Now This","link":"https://www.facebook.com/NowThisFuture/videos/1734953129879193/"},
+			{"publication":"UploadVR","link":"https://uploadvr.com/become-star-wars-hologram-help-r2-d2-arkit/"}
+			],
+		"link":[]
 	},
 	{
 		"title":"How to Ride a Dragon",
