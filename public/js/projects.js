@@ -113,7 +113,14 @@ window.projects = [
 		"role":["all code","3D modeling","animation","unity","concept","experience"],
 		"press":[
 			{"publication":"Now This","link":"https://www.facebook.com/NowThisFuture/videos/1734953129879193/"},
-			{"publication":"UploadVR","link":"https://uploadvr.com/become-star-wars-hologram-help-r2-d2-arkit/"}
+			{"publication":"UploadVR","link":"https://uploadvr.com/become-star-wars-hologram-help-r2-d2-arkit/"},
+			{"publication":"Wired Italy","link":"https://www.wired.it/mobile/app/2017/09/21/holo-messenger-la-chat-star-wars/"},
+			{"publication":"Prosthetic Knowledge","link":"http://prostheticknowledge.tumblr.com/post/165302021921/holo-messenger-developer-abhishek-singh-is"},
+			{"publication":"Lifehacker Japan","link":"https://www.lifehacker.jp/2017/10/171008-ios-11-best-apps-gizmodo.html"},
+			{"publication":"Siam VR","link":"http://www.siamvr.com/augmented-reality/send-a-messege-in-hologram-with-holo-messenger/"},
+			{"publication":"Owdin","link":"https://owdin.live/2017/09/14/decouvrez-holo-messenger/"},
+			{"publication":"Gizmodo","link":"http://fieldguide.gizmodo.com/all-of-the-best-augmented-reality-tricks-your-iphone-ca-1805804012"}
+
 			],
 		"link":[]
 	},
