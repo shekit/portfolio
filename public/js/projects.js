@@ -99,6 +99,61 @@ window.projects = [
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
 	},
 	{
+		"title":"Ring AR",
+		"slug":"ring-ar",
+		"description":"I reenacted the famous scene from 'The Ring' to bring horror movies to life in AR",
+		"thumbnail":"./public/img/thumbnails/ring.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/g_WBVi-bu9Q","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["make","play"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["unity","maya"],
+		"role":["unity","concept","experience"],
+		"press":[
+			{"publication":"Huffington Post","link":"https://www.huffingtonpost.com/entry/the-ring-augmented-reality_us_5a91a119e4b01e9e56bc4210"},
+			{"publication":"VRScout","link":"https://vrscout.com/news/ar-the-ring-your-living-room/"},
+			{"publication":"RoadToVR","link":"https://www.roadtovr.com/arkit-recreation-ring-iconic-tv-scene-foretells-ars-inevitable-weirdness/"},
+			{"publication":"Interesting Engineering","link":"https://interestingengineering.com/video/programmer-uses-arkit-to-create-the-iconic-scene-from-the-horror-movie-the-ring-in-real-life"},
+			{"publication":"Verge","link":"https://www.theverge.com/tldr/2018/2/22/17041980/arkit-the-ring-augmented-reality"},
+			{"publication":"Nerdist","link":"https://nerdist.com/the-ring-real-life-ar/"},
+			{"publication":"Inverse","link":"https://www.inverse.com/article/41611-arkit-horror-the-ring"},
+			{"publication":"Cult of Mac","link":"https://www.cultofmac.com/530583/the-ring-arkit-demo/"},
+			{"publication":"Gizmodo","link":"https://gizmodo.com/watching-that-girl-from-the-ring-crawl-out-of-a-tv-in-a-1823239374"},
+			{"publication":"Motherboard","link":"https://motherboard.vice.com/it/article/neqqag/scena-pozzo-the-ring-in-realta-aumentata"},
+			{"publication":"IBTimes","link":"http://www.ibtimes.co.uk/watch-rings-sinister-ghost-crawl-out-tv-this-augmented-reality-video-1663353"},
+			{"publication":"NowThisFuture","link":"https://www.facebook.com/NowThisFuture/videos/1976140092427161/"},
+			{"publication":"AltPress","link":"https://www.altpress.com/news/entry/the_ring_movie_ar_augmented_reality"},
+			{"publication":"Design Taxi","link":"http://www.designtaxi.com/news/398576/Watch-Developer-Uses-AR-To-Bring-Iconic-Horror-Scene-In-The-Ring-To-Life/"},
+			{"publication":"ComicBook","link":"http://comicbook.com/horror/2018/03/01/the-ring-ar-tv-girl-climbing-horror-film/"},
+			{"publication":"UberGizmo","link":"http://www.ubergizmo.com/2018/02/arkit-bring-horror-movies-to-life/"},
+			{"publication":"iHorror","link":"https://www.ihorror.com/watch-samara-crawl-tv-thanks-augmented-reality/"},
+			{"publication":"Laughing Squid","link":"https://laughingsquid.com/the-ring-girl-crawls-out-of-tv-via-augmented-reality/"},
+			],
+		"link":[]
+	},
+	{
+		"title":"Laser Cat",
+		"slug":"laser-cat",
+		"description":"I built a game where all you do is tease a virtual kitten with a laser",
+		"thumbnail":"./public/img/thumbnails/cat.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/LYszXfkwYeQ","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["make","play"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["unity3D"],
+		"role":["unity","concept","experience"],
+		"press":[
+			{"publication":"VRScout","link":"https://vrscout.com/news/arkit-laser-pointer-cat-ar-game/"},
+			{"publication":"Huge Thinking","link":"https://hugethinking.com/post/ar-laser-pointer-and-cat-app-is-internet-gold/"},
+			{"publication":"Inside","link":"https://inside.com/campaigns/inside-vr-ar-2017-12-08-4289/sections/ar-laser-pointer-cat-app-25697"},
+			],
+		"link":[]
+	},
+	{
 		"title":"Holo Messenger",
 		"slug":"holo-messenger",
 		"description":"Remember Princess Leia's classic holographic message from Star Wars? This app lets you record and send your own augmented reality holographic messages using your phone.",
