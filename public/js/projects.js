@@ -130,6 +130,7 @@ window.projects = [
 			{"publication":"Nintendo Life","link":"http://www.nintendolife.com/news/2018/03/augmented_reality_street_fighter_is_as_cool_as_it_sounds"},
 			{"publication":"Digg","link":"http://digg.com/video/augmented-reality-street-fighter"},
 			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/gaming/street-fighter-ii-ar/"},
+			{"publication":"Digital Spy","link":"http://www.digitalspy.com/tech/news/a853855/street-fighter-ar-augmented-reality-real-life/"},
 		],
 		"link":[]
 	},
