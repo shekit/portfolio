@@ -99,6 +99,41 @@ window.projects = [
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
 	},
 	{
+		"title":"Street Fighter AR",
+		"slug":"street-fighter-ar",
+		"description":"I reenacted the famous scene from 'The Ring' to bring horror movies to life in AR",
+		"thumbnail":"./public/img/thumbnails/sf2.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/NpvZWFd0uRg","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["make","play"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["unity","blender","arkit", "mixamo"],
+		"role":["unity","concept","experience", "networking", "everything"],
+		"press":[
+			{"publication":"Mashable","link":"https://mashable.com/2018/03/14/street-fighter-2-augmented-reality-game/"},
+			{"publication":"Kotaku","link":"https://kotaku.com/street-fighter-gets-unofficially-ported-to-the-real-wor-1823781690"},
+			{"publication":"BBC","link":"http://www.bbc.com/news/av/technology-43572009/street-fighter-ii-ar-gives-new-life-to-video-game"},
+			{"publication":"Tech Insider","link":"https://twitter.com/techinsider/status/979468742961676288"},
+			{"publication":"CNET","link":"https://www.cnet.com/news/street-fighter-in-ar-is-a-weirdly-perfect-match/"},
+			{"publication":"Forbes","link":"https://www.forbes.com/sites/jasonevangelho/2018/03/15/pay-attention-capcom-someone-turned-street-fighter-ii-into-a-promising-ar-game/"},
+			{"publication":"VRScout","link":"https://vrscout.com/news/ar-technology-street-fighter-ii/"},
+			{"publication":"Cult of Mac","link":"https://www.cultofmac.com/534879/street-fighter-arkit-demo/"},
+			{"publication":"Gizmodo","link":"https://gizmodo.com/this-ar-street-fighter-ii-lets-you-brawl-in-the-real-wo-1823774855"},
+			{"publication":"NowThisFuture","link":"https://www.facebook.com/NowThisFuture/videos/2008911625816674/?id=100000228378786"},
+			{"publication":"GamesRadar","link":"https://www.gamesradar.com/watch-street-fighter-2-played-irl-and-meet-the-coding-wizard-who-made-it-happen/"},
+			{"publication":"Tech2","link":"https://tech2.org/france/street-fighter-ii-in-ar-a-demo-that-could-become-reality/"},
+			{"publication":"Shoryuken","link":"http://shoryuken.com/2018/03/15/street-fighter-gets-ported-to-the-real-world-with-the-help-of-augmented-reality/"},
+			{"publication":"VentureBeat","link":"https://venturebeat.com/2018/03/15/street-fighter-iis-world-warriors-fight-on-actual-streets-in-this-apple-arkit-demo/"},
+			{"publication":"9to5mac","link":"https://9to5mac.com/2018/03/15/ar-games-street-fighter-2/"},
+			{"publication":"Nintendo Life","link":"http://www.nintendolife.com/news/2018/03/augmented_reality_street_fighter_is_as_cool_as_it_sounds"},
+			{"publication":"Digg","link":"http://digg.com/video/augmented-reality-street-fighter"},
+			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/gaming/street-fighter-ii-ar/"},
+		],
+		"link":[]
+	},
+	{
 		"title":"Ring AR",
 		"slug":"ring-ar",
 		"description":"I reenacted the famous scene from 'The Ring' to bring horror movies to life in AR",
@@ -109,7 +144,7 @@ window.projects = [
 		], //include embed link without iframe stufffor videos
 		"category":["make","play"],
 		"tags":["unity","vr","ar"], // not used yet
-		"builtWith":["unity","maya"],
+		"builtWith":["unity","maya", "arkit"],
 		"role":["unity","concept","experience"],
 		"press":[
 			{"publication":"Huffington Post","link":"https://www.huffingtonpost.com/entry/the-ring-augmented-reality_us_5a91a119e4b01e9e56bc4210"},
