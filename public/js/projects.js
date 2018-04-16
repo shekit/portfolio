@@ -479,25 +479,25 @@ window.projects = [
 		"link":{"display":"GifItTo.Me","link":"https://gifitto.me","status":"active"}
 	},
 
-	{
-		"title":"Instalive",
-		"slug":"instalive",
-		"description":"This self service photo booth is a physical version of instagram that let people select predefined filters from an iPad. Physical lights then changed in realtime to create the effect of the selected filter, a photo was automatically clicked and mailed to the user.",
-		"thumbnail":"./public/img/thumbnails/instalive.gif",
-		"media":[
-			{"path":"./public/img/projects/instalive/1.jpg","caption":"","type":"image"},
-			{"path":"./public/img/projects/instalive/2.jpg","caption":"","type":"image"},
-			{"path":"./public/img/projects/instalive/3.jpg","caption":"","type":"image"},
-			{"path":"./public/img/projects/instalive/4.jpg","caption":"","type":"image"},
-			{"path":"./public/img/projects/instalive/5.jpg","caption":"","type":"image"},
-		], //include embed link without iframe stufffor videos
-		"category":["make","play"],
-		"tags":[""], // not used yet
-		"builtWith":["arduino","philips hue","node.js","javascript"],
-		"role":["code","fabrication","concept"],
-		"press":[],
-		"link":[]
-	},
+	// {
+	// 	"title":"Instalive",
+	// 	"slug":"instalive",
+	// 	"description":"This self service photo booth is a physical version of instagram that let people select predefined filters from an iPad. Physical lights then changed in realtime to create the effect of the selected filter, a photo was automatically clicked and mailed to the user.",
+	// 	"thumbnail":"./public/img/thumbnails/instalive.gif",
+	// 	"media":[
+	// 		{"path":"./public/img/projects/instalive/1.jpg","caption":"","type":"image"},
+	// 		{"path":"./public/img/projects/instalive/2.jpg","caption":"","type":"image"},
+	// 		{"path":"./public/img/projects/instalive/3.jpg","caption":"","type":"image"},
+	// 		{"path":"./public/img/projects/instalive/4.jpg","caption":"","type":"image"},
+	// 		{"path":"./public/img/projects/instalive/5.jpg","caption":"","type":"image"},
+	// 	], //include embed link without iframe stufffor videos
+	// 	"category":["make","play"],
+	// 	"tags":[""], // not used yet
+	// 	"builtWith":["arduino","philips hue","node.js","javascript"],
+	// 	"role":["code","fabrication","concept"],
+	// 	"press":[],
+	// 	"link":[]
+	// },
 
 	{
 		"title":"Grep",
