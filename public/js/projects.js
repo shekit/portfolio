@@ -44,10 +44,10 @@ window.projects = [
 	{
 		"title":"Instagif Camera",
 		"slug":"instagif",
-		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral.",
+		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral and very quickly got a cease & desist letter from Polaroid, so I had to take down the video. Bummer!",
 		"thumbnail":"./public/img/thumbnails/instagif.gif",
 		"media":[
-			{"path":"https://www.youtube.com/embed/T71S8kZhzWw","caption":"","type":"video"},
+			{"path":"./public/img/projects/instagif/1.jpg","caption":"","type":"image"},
 
 		], //include embed link without iframe stufffor videos
 		"category":["make","play"],
