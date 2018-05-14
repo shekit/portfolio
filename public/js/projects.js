@@ -45,9 +45,9 @@ window.projects = [
 		"title":"Instagif Camera",
 		"slug":"instagif",
 		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral and very quickly got a cease & desist letter from Polaroid, so I had to take down the video. Bummer!",
-		"thumbnail":"./public/img/thumbnails/instagif.gif",
+		"thumbnail":"./public/img/thumbnails/instagif2.gif",
 		"media":[
-			{"path":"./public/img/projects/instagif/1.jpg","caption":"","type":"image"},
+			{"path":"./public/img/projects/instagif/4.jpg","caption":"","type":"image"},
 
 		], //include embed link without iframe stufffor videos
 		"category":["make","play"],
@@ -68,7 +68,7 @@ window.projects = [
 			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
 			
 			],
-		"link":{"display": "Instagif", "link": "https://imgur.com/a/CG9w4", "status":"active"}
+		"link":[]
 	},
 	{
 		"title":"Peeqo",
