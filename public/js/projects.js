@@ -68,7 +68,7 @@ window.projects = [
 			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
 			
 			],
-		"link":[]
+		"link":["display":"Imgur","link":"https://imgur.com/gallery/CG9w4","status":"active"]
 	},
 	{
 		"title":"Peeqo",
