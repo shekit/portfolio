@@ -135,6 +135,31 @@ window.projects = [
 		"link":[]
 	},
 	{
+		"title":"Alexa Sign Language",
+		"slug":"alexa-sign-language",
+		"description":"An experiment to get Amazon Echo to respond to sign language which began with a simple question - 'If voice is the future of computing, what about those who cannot hear or speak?'",
+		"thumbnail":"./public/img/thumbnails/alexa.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/kS53y6GWm0w","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["code","play"],
+		"tags":["deeplearning",], // not used yet
+		"builtWith":["TensorFlow.js","Amazon Echo","Javascript"],
+		"role":["all code","concept","everything"],
+		"press":[
+			{"publication":"BBC","link":"https://www.bbc.com/news/technology-44891054"},
+			{"publication":"Mashable","link":"https://mashable.com/video/amazon-alexa-sign-language/"},
+			{"publication":"Verge","link":"https://www.theverge.com/2018/7/24/17606614/amazon-alexa-echo-mod-sign-language-gestures-ai"},
+			{"publication":"VentureBeat","link":"https://venturebeat.com/2018/07/24/amazon-alexa-mod-turns-sign-language-into-voice-commands/"},
+			{"publication":"Kottke","link":"https://kottke.org/18/07/making-amazon-alexa-respond-to-sign-language-using-ai"},
+			{"publication":"NowThis","link":"https://www.facebook.com/NowThisFuture/videos/alexa-can-now-understand-sign/2221206704587164/"},
+			{"publication":"FastCo","link":"https://www.fastcompany.com/90202730/this-clever-app-lets-amazon-alexa-read-sign-language"},
+			{"publication":"DigitalTrends","link":"https://www.digitaltrends.com/home/alexa-deaf-web-app/"},
+			],
+		"link":{"display":"Live Demo","link":"https://shekit.github.io/alexa-sign-language-translator/","status":"active"}
+	},
+	{
 		"title":"Ring AR",
 		"slug":"ring-ar",
 		"description":"I reenacted the famous scene from 'The Ring' to bring horror movies to life in AR",
