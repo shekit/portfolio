@@ -23,9 +23,26 @@ h2 {
     font-weight: 300;
 }
 
+#announcement {
+    padding-bottom: 15px;
+    border: 2px dotted #bbb;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
 .verb-title {
     font-size: 40px;
     font-weight: 300;
+}
+
+.big {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.big-subtitle {
+    color: #bbb;
+    font-size: 14px;
 }
 
 .verb {
@@ -56,6 +73,23 @@ h2 {
     color: #ef4136;
 }
 
+/** MAILCHIMP FORM **/
+#mce-EMAIL {
+    border-radius: 0;
+    text-align: center;
+}
+
+#mc-embedded-subscribe {
+    width: 100%;
+    border-radius: 0;
+    border-color: orangered;
+    background: orangered;
+    color: white;
+}
+
+#mc-embedded-subscribe:hover{
+    background: #f05a28;
+}
 
 /** CATEGORY LINKS **/
 
