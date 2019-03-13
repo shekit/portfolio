@@ -14,6 +14,7 @@ window.projects = [
 		"role":["code","CAD", "industrial design", "mechanical design", "circuit design", "design", "everything"],
 		"press":[
 			{"publication":"Forbes","link":"https://www.forbes.com/sites/fernandoalfonso/2019/02/19/gif-and-video-powered-robot-peeqo-can-be-yours-thanks-to-kickstarter/"},
+			{"publication":"Stuff.tv","link":"https://www.stuff.tv/hot-stuff/smart-home/peeqo-kit-built-raspberry-pi-powered-robot-pal-who-speaks-using-gifs-and-video"},
 			{"publication":"Yahoo Finance","link":"https://finance.yahoo.com/video/peeqo-robot-companion-responds-gifs-211318727.html"},
 			{"publication":"Tested","link":"https://www.tested.com/tech/866787-crowdfunding-spotlight-peeqo-diy-gif-robot/"},
 			{"publication":"Uncrate","link":"https://uncrate.com/peeqo-gif-robot/"},
