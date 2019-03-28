@@ -1,32 +1,5 @@
 window.projects = [
-	{
-		"title":"Peeqo",
-		"slug":"peeqo-v2",
-		"description":"A hackable, programmable robot that responds entirely through GIFs & videos that you can build yourself",
-		"thumbnail":"./public/img/thumbnails/peeqov2.gif",
-		"media":[
-			{"path":"https://www.youtube.com/embed/qzlc4grw9lo","caption":"","type":"video"},
-
-		], //include embed link without iframe stufffor videos
-		"category":["make","design"],
-		"tags":["node","javascript","robots"], // not used yet
-		"builtWith":["eagle","raspberrypi","electron","fusion360","illustrator", "concept", "character design"],
-		"role":["code","CAD", "industrial design", "mechanical design", "circuit design", "design", "everything"],
-		"press":[
-			{"publication":"Forbes","link":"https://www.forbes.com/sites/fernandoalfonso/2019/02/19/gif-and-video-powered-robot-peeqo-can-be-yours-thanks-to-kickstarter/"},
-			{"publication":"Stuff.tv","link":"https://www.stuff.tv/hot-stuff/smart-home/peeqo-kit-built-raspberry-pi-powered-robot-pal-who-speaks-using-gifs-and-video"},
-			{"publication":"Yahoo Finance","link":"https://finance.yahoo.com/video/peeqo-robot-companion-responds-gifs-211318727.html"},
-			{"publication":"Tested","link":"https://www.tested.com/tech/866787-crowdfunding-spotlight-peeqo-diy-gif-robot/"},
-			{"publication":"Uncrate","link":"https://uncrate.com/peeqo-gif-robot/"},
-			{"publication":"Engineering.com","link":"https://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/18540/Peeqo-the-Robot-Speaks-Only-in-Videos-and-GIFs.aspx"},
-			{"publication":"Geeky Gadgets","link":"https://www.geeky-gadgets.com/peeqo-personal-robot-13-02-2019/"},
-			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/cool-tech/peeqo-robot-gif-kickstarter/"},
-			{"publication":"Hackster","link":"https://blog.hackster.io/peeqo-is-a-smart-home-assistant-that-communicates-entirely-through-gifs-6f5448be667c"},
-			{"publication":"Gadgeteer","link":"https://the-gadgeteer.com/2019/02/17/peeqo-a-cheerful-memebot/"},
-			{"publication":"Urban Daddy","link":"https://www.urbandaddy.com/articles/42999/a-gif-robot-yes-this-is-a-gif-robot"}
-			],
-		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
-	},
+	
 	{
 		"title":"Super Mario AR",
 		"slug":"super-mario",
@@ -70,33 +43,32 @@ window.projects = [
 		"link":[]
 	},
 	{
-		"title":"Instagif Camera",
-		"slug":"instagif",
-		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral and very quickly got a cease & desist letter from Polaroid, so I had to take down the video. Bummer!",
-		"thumbnail":"./public/img/thumbnails/instagif2.gif",
+		"title":"Peeqo",
+		"slug":"peeqo-v2",
+		"description":"A hackable, programmable robot that responds entirely through GIFs & videos that you can build yourself",
+		"thumbnail":"./public/img/thumbnails/peeqov2.gif",
 		"media":[
-			{"path":"./public/img/projects/instagif/4.jpg","caption":"","type":"image"},
+			{"path":"https://www.youtube.com/embed/qzlc4grw9lo","caption":"","type":"video"},
 
 		], //include embed link without iframe stufffor videos
-		"category":["make","play"],
-		"tags":["unity","vr","ar"], // not used yet
-		"builtWith":["raspberry-pi","node.js","fusion360"],
-		"role":["all code","3D modeling","animation","unity","concept","experience"],
+		"category":["make","design"],
+		"tags":["node","javascript","robots"], // not used yet
+		"builtWith":["eagle","raspberrypi","electron","fusion360","illustrator", "concept", "character design"],
+		"role":["code","CAD", "industrial design", "mechanical design", "circuit design", "design", "everything"],
 		"press":[
-			{"publication":"Techcrunch","link":"https://techcrunch.com/2017/08/30/the-instagif-is-a-camera-that-prints-animated-gifs/"},
-			{"publication":"Mashable","link":"http://mashable.com/2017/08/31/polaroid-diy-camera/#u11RA2K8viq5"},
-			{"publication":"Motherboard","link":"https://motherboard.vice.com/en_us/article/7xxqwa/this-guy-made-a-polaroid-camera-that-prints-gifs"},
-			{"publication":"Hindustan Times","link":"http://www.hindustantimes.com/tech/don-t-stand-still-indian-builds-diy-polaroid-camera-that-instantly-prints-gifs/story-satBaYi6Z6Iwdc5kvbCDJP.html"},
-			{"publication":"CNET","link":"https://www.cnet.com/news/polaroid-like-camera-prints-out-gifs-instantly/"},
-			{"publication":"The Verge","link":"https://www.theverge.com/circuitbreaker/2017/8/30/16228574/diy-polaroid-camera-gif-printer-raspberry-pi"},
-			{"publication":"Thrillist","link":"https://www.thrillist.com/news/nation/instagif-camera-raspberry-pi-project-diy"},
-			{"publication":"DPReview","link":"https://www.dpreview.com/news/7785248947/diyer-creates-polaroid-camera-that-prints-instant-animated-gifs"},
-			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/photography/instagif-nextstep-prints-moving-gifs-polaroid/"},
-			{"publication":"IBTimes","link":"http://www.ibtimes.co.uk/super-mario-bros-ar-creator-makes-polaroid-camera-that-prints-gifs-1637404"},
-			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
-			
+			{"publication":"Forbes","link":"https://www.forbes.com/sites/fernandoalfonso/2019/02/19/gif-and-video-powered-robot-peeqo-can-be-yours-thanks-to-kickstarter/"},
+			{"publication":"Stuff.tv","link":"https://www.stuff.tv/hot-stuff/smart-home/peeqo-kit-built-raspberry-pi-powered-robot-pal-who-speaks-using-gifs-and-video"},
+			{"publication":"Yahoo Finance","link":"https://finance.yahoo.com/video/peeqo-robot-companion-responds-gifs-211318727.html"},
+			{"publication":"Tested","link":"https://www.tested.com/tech/866787-crowdfunding-spotlight-peeqo-diy-gif-robot/"},
+			{"publication":"Uncrate","link":"https://uncrate.com/peeqo-gif-robot/"},
+			{"publication":"Engineering.com","link":"https://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/18540/Peeqo-the-Robot-Speaks-Only-in-Videos-and-GIFs.aspx"},
+			{"publication":"Geeky Gadgets","link":"https://www.geeky-gadgets.com/peeqo-personal-robot-13-02-2019/"},
+			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/cool-tech/peeqo-robot-gif-kickstarter/"},
+			{"publication":"Hackster","link":"https://blog.hackster.io/peeqo-is-a-smart-home-assistant-that-communicates-entirely-through-gifs-6f5448be667c"},
+			{"publication":"Gadgeteer","link":"https://the-gadgeteer.com/2019/02/17/peeqo-a-cheerful-memebot/"},
+			{"publication":"Urban Daddy","link":"https://www.urbandaddy.com/articles/42999/a-gif-robot-yes-this-is-a-gif-robot"}
 			],
-		"link":[]
+		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
 	},
 	{
 		"title":"Street Fighter AR",
@@ -135,31 +107,6 @@ window.projects = [
 		"link":[]
 	},
 	{
-		"title":"Alexa Sign Language",
-		"slug":"alexa-sign-language",
-		"description":"An experiment to get Amazon Echo to respond to sign language which began with a simple question - 'If voice is the future of computing, what about those who cannot hear or speak?'",
-		"thumbnail":"./public/img/thumbnails/alexa.gif",
-		"media":[
-			{"path":"https://www.youtube.com/embed/kS53y6GWm0w","caption":"","type":"video"},
-
-		], //include embed link without iframe stufffor videos
-		"category":["code","play"],
-		"tags":["deeplearning",], // not used yet
-		"builtWith":["TensorFlow.js","Amazon Echo","Javascript"],
-		"role":["all code","concept","everything"],
-		"press":[
-			{"publication":"BBC","link":"https://www.bbc.com/news/technology-44891054"},
-			{"publication":"Mashable","link":"https://mashable.com/video/amazon-alexa-sign-language/"},
-			{"publication":"Verge","link":"https://www.theverge.com/2018/7/24/17606614/amazon-alexa-echo-mod-sign-language-gestures-ai"},
-			{"publication":"VentureBeat","link":"https://venturebeat.com/2018/07/24/amazon-alexa-mod-turns-sign-language-into-voice-commands/"},
-			{"publication":"Kottke","link":"https://kottke.org/18/07/making-amazon-alexa-respond-to-sign-language-using-ai"},
-			{"publication":"NowThis","link":"https://www.facebook.com/NowThisFuture/videos/alexa-can-now-understand-sign/2221206704587164/"},
-			{"publication":"FastCo","link":"https://www.fastcompany.com/90202730/this-clever-app-lets-amazon-alexa-read-sign-language"},
-			{"publication":"DigitalTrends","link":"https://www.digitaltrends.com/home/alexa-deaf-web-app/"},
-			],
-		"link":{"display":"Live Demo","link":"https://shekit.github.io/alexa-sign-language-translator/","status":"active"}
-	},
-	{
 		"title":"Ring AR",
 		"slug":"ring-ar",
 		"description":"I reenacted the famous scene from 'The Ring' to bring horror movies to life in AR",
@@ -194,7 +141,7 @@ window.projects = [
 			],
 		"link":[]
 	},
-  {
+	{
     "title":"Roadrunner",
     "slug":"roadrunner",
     "description":"I wanted to bring one of my favorite cartoons to life, so here's Wile E. Coyote continuing his quest to catch the Roadrunner in AR. ",
@@ -327,6 +274,62 @@ window.projects = [
 			],
 		"link":[]
 	},
+	{
+		"title":"Instagif Camera",
+		"slug":"instagif",
+		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral and very quickly got a cease & desist letter from Polaroid, so I had to take down the video. Bummer!",
+		"thumbnail":"./public/img/thumbnails/instagif2.gif",
+		"media":[
+			{"path":"./public/img/projects/instagif/4.jpg","caption":"","type":"image"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["make","play"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["raspberry-pi","node.js","fusion360"],
+		"role":["all code","3D modeling","animation","unity","concept","experience"],
+		"press":[
+			{"publication":"Techcrunch","link":"https://techcrunch.com/2017/08/30/the-instagif-is-a-camera-that-prints-animated-gifs/"},
+			{"publication":"Mashable","link":"http://mashable.com/2017/08/31/polaroid-diy-camera/#u11RA2K8viq5"},
+			{"publication":"Motherboard","link":"https://motherboard.vice.com/en_us/article/7xxqwa/this-guy-made-a-polaroid-camera-that-prints-gifs"},
+			{"publication":"Hindustan Times","link":"http://www.hindustantimes.com/tech/don-t-stand-still-indian-builds-diy-polaroid-camera-that-instantly-prints-gifs/story-satBaYi6Z6Iwdc5kvbCDJP.html"},
+			{"publication":"CNET","link":"https://www.cnet.com/news/polaroid-like-camera-prints-out-gifs-instantly/"},
+			{"publication":"The Verge","link":"https://www.theverge.com/circuitbreaker/2017/8/30/16228574/diy-polaroid-camera-gif-printer-raspberry-pi"},
+			{"publication":"Thrillist","link":"https://www.thrillist.com/news/nation/instagif-camera-raspberry-pi-project-diy"},
+			{"publication":"DPReview","link":"https://www.dpreview.com/news/7785248947/diyer-creates-polaroid-camera-that-prints-instant-animated-gifs"},
+			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/photography/instagif-nextstep-prints-moving-gifs-polaroid/"},
+			{"publication":"IBTimes","link":"http://www.ibtimes.co.uk/super-mario-bros-ar-creator-makes-polaroid-camera-that-prints-gifs-1637404"},
+			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
+			
+			],
+		"link":[]
+	},
+	
+	{
+		"title":"Alexa Sign Language",
+		"slug":"alexa-sign-language",
+		"description":"An experiment to get Amazon Echo to respond to sign language which began with a simple question - 'If voice is the future of computing, what about those who cannot hear or speak?'",
+		"thumbnail":"./public/img/thumbnails/alexa.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/kS53y6GWm0w","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["code","play"],
+		"tags":["deeplearning",], // not used yet
+		"builtWith":["TensorFlow.js","Amazon Echo","Javascript"],
+		"role":["all code","concept","everything"],
+		"press":[
+			{"publication":"BBC","link":"https://www.bbc.com/news/technology-44891054"},
+			{"publication":"Mashable","link":"https://mashable.com/video/amazon-alexa-sign-language/"},
+			{"publication":"Verge","link":"https://www.theverge.com/2018/7/24/17606614/amazon-alexa-echo-mod-sign-language-gestures-ai"},
+			{"publication":"VentureBeat","link":"https://venturebeat.com/2018/07/24/amazon-alexa-mod-turns-sign-language-into-voice-commands/"},
+			{"publication":"Kottke","link":"https://kottke.org/18/07/making-amazon-alexa-respond-to-sign-language-using-ai"},
+			{"publication":"NowThis","link":"https://www.facebook.com/NowThisFuture/videos/alexa-can-now-understand-sign/2221206704587164/"},
+			{"publication":"FastCo","link":"https://www.fastcompany.com/90202730/this-clever-app-lets-amazon-alexa-read-sign-language"},
+			{"publication":"DigitalTrends","link":"https://www.digitaltrends.com/home/alexa-deaf-web-app/"},
+			],
+		"link":{"display":"Live Demo","link":"https://shekit.github.io/alexa-sign-language-translator/","status":"active"}
+	},
+	
 	{
 		"title":"Lumens",
 		"slug":"lumens",
