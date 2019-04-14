@@ -70,10 +70,35 @@ window.projects = [
 			],
 		"link":{"display":"Peeqo.com","link":"http://peeqo.com","status":"active"}
 	},
+		{
+		"title":"Alexa Sign Language",
+		"slug":"alexa-sign-language",
+		"description":"An experiment to get Amazon Echo to respond to sign language which began with a simple question - 'If voice is the future of computing, what about those who cannot hear or speak?'",
+		"thumbnail":"./public/img/thumbnails/alexa.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/kS53y6GWm0w","caption":"","type":"video"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["code","play"],
+		"tags":["deeplearning",], // not used yet
+		"builtWith":["TensorFlow.js","Amazon Echo","Javascript"],
+		"role":["all code","concept","everything"],
+		"press":[
+			{"publication":"BBC","link":"https://www.bbc.com/news/technology-44891054"},
+			{"publication":"Mashable","link":"https://mashable.com/video/amazon-alexa-sign-language/"},
+			{"publication":"Verge","link":"https://www.theverge.com/2018/7/24/17606614/amazon-alexa-echo-mod-sign-language-gestures-ai"},
+			{"publication":"VentureBeat","link":"https://venturebeat.com/2018/07/24/amazon-alexa-mod-turns-sign-language-into-voice-commands/"},
+			{"publication":"Kottke","link":"https://kottke.org/18/07/making-amazon-alexa-respond-to-sign-language-using-ai"},
+			{"publication":"NowThis","link":"https://www.facebook.com/NowThisFuture/videos/alexa-can-now-understand-sign/2221206704587164/"},
+			{"publication":"FastCo","link":"https://www.fastcompany.com/90202730/this-clever-app-lets-amazon-alexa-read-sign-language"},
+			{"publication":"DigitalTrends","link":"https://www.digitaltrends.com/home/alexa-deaf-web-app/"},
+			],
+		"link":{"display":"Live Demo","link":"https://shekit.github.io/alexa-sign-language-translator/","status":"active"}
+	},
 	{
 		"title":"Street Fighter AR",
 		"slug":"street-fighter-ar",
-		"description":"I reenacted the famous scene from 'The Ring' to bring horror movies to life in AR",
+		"description":"I brought the arcade classic to life as a multiplayer AR game you can play anywhere - in the streets or on the table in front of you",
 		"thumbnail":"./public/img/thumbnails/sf2.gif",
 		"media":[
 			{"path":"https://www.youtube.com/embed/NpvZWFd0uRg","caption":"","type":"video"},
@@ -138,6 +163,35 @@ window.projects = [
 			{"publication":"UberGizmo","link":"http://www.ubergizmo.com/2018/02/arkit-bring-horror-movies-to-life/"},
 			{"publication":"iHorror","link":"https://www.ihorror.com/watch-samara-crawl-tv-thanks-augmented-reality/"},
 			{"publication":"Laughing Squid","link":"https://laughingsquid.com/the-ring-girl-crawls-out-of-tv-via-augmented-reality/"},
+			],
+		"link":[]
+	},
+	{
+		"title":"Instagif Camera",
+		"slug":"instagif",
+		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral and very quickly got a cease & desist letter from Polaroid, so I had to take down the video. Bummer!",
+		"thumbnail":"./public/img/thumbnails/instagif2.gif",
+		"media":[
+			{"path":"./public/img/projects/instagif/4.jpg","caption":"","type":"image"},
+
+		], //include embed link without iframe stufffor videos
+		"category":["make","play"],
+		"tags":["unity","vr","ar"], // not used yet
+		"builtWith":["raspberry-pi","node.js","fusion360"],
+		"role":["all code","3D modeling","animation","unity","concept","experience"],
+		"press":[
+			{"publication":"Techcrunch","link":"https://techcrunch.com/2017/08/30/the-instagif-is-a-camera-that-prints-animated-gifs/"},
+			{"publication":"Mashable","link":"http://mashable.com/2017/08/31/polaroid-diy-camera/#u11RA2K8viq5"},
+			{"publication":"Motherboard","link":"https://motherboard.vice.com/en_us/article/7xxqwa/this-guy-made-a-polaroid-camera-that-prints-gifs"},
+			{"publication":"Hindustan Times","link":"http://www.hindustantimes.com/tech/don-t-stand-still-indian-builds-diy-polaroid-camera-that-instantly-prints-gifs/story-satBaYi6Z6Iwdc5kvbCDJP.html"},
+			{"publication":"CNET","link":"https://www.cnet.com/news/polaroid-like-camera-prints-out-gifs-instantly/"},
+			{"publication":"The Verge","link":"https://www.theverge.com/circuitbreaker/2017/8/30/16228574/diy-polaroid-camera-gif-printer-raspberry-pi"},
+			{"publication":"Thrillist","link":"https://www.thrillist.com/news/nation/instagif-camera-raspberry-pi-project-diy"},
+			{"publication":"DPReview","link":"https://www.dpreview.com/news/7785248947/diyer-creates-polaroid-camera-that-prints-instant-animated-gifs"},
+			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/photography/instagif-nextstep-prints-moving-gifs-polaroid/"},
+			{"publication":"IBTimes","link":"http://www.ibtimes.co.uk/super-mario-bros-ar-creator-makes-polaroid-camera-that-prints-gifs-1637404"},
+			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
+			
 			],
 		"link":[]
 	},
@@ -274,61 +328,7 @@ window.projects = [
 			],
 		"link":[]
 	},
-	{
-		"title":"Instagif Camera",
-		"slug":"instagif",
-		"description":"I built a camera that snaps & instantly prints a GIF you can hold in your hand! I call it Instagif. It went kinda viral and very quickly got a cease & desist letter from Polaroid, so I had to take down the video. Bummer!",
-		"thumbnail":"./public/img/thumbnails/instagif2.gif",
-		"media":[
-			{"path":"./public/img/projects/instagif/4.jpg","caption":"","type":"image"},
-
-		], //include embed link without iframe stufffor videos
-		"category":["make","play"],
-		"tags":["unity","vr","ar"], // not used yet
-		"builtWith":["raspberry-pi","node.js","fusion360"],
-		"role":["all code","3D modeling","animation","unity","concept","experience"],
-		"press":[
-			{"publication":"Techcrunch","link":"https://techcrunch.com/2017/08/30/the-instagif-is-a-camera-that-prints-animated-gifs/"},
-			{"publication":"Mashable","link":"http://mashable.com/2017/08/31/polaroid-diy-camera/#u11RA2K8viq5"},
-			{"publication":"Motherboard","link":"https://motherboard.vice.com/en_us/article/7xxqwa/this-guy-made-a-polaroid-camera-that-prints-gifs"},
-			{"publication":"Hindustan Times","link":"http://www.hindustantimes.com/tech/don-t-stand-still-indian-builds-diy-polaroid-camera-that-instantly-prints-gifs/story-satBaYi6Z6Iwdc5kvbCDJP.html"},
-			{"publication":"CNET","link":"https://www.cnet.com/news/polaroid-like-camera-prints-out-gifs-instantly/"},
-			{"publication":"The Verge","link":"https://www.theverge.com/circuitbreaker/2017/8/30/16228574/diy-polaroid-camera-gif-printer-raspberry-pi"},
-			{"publication":"Thrillist","link":"https://www.thrillist.com/news/nation/instagif-camera-raspberry-pi-project-diy"},
-			{"publication":"DPReview","link":"https://www.dpreview.com/news/7785248947/diyer-creates-polaroid-camera-that-prints-instant-animated-gifs"},
-			{"publication":"Digital Trends","link":"https://www.digitaltrends.com/photography/instagif-nextstep-prints-moving-gifs-polaroid/"},
-			{"publication":"IBTimes","link":"http://www.ibtimes.co.uk/super-mario-bros-ar-creator-makes-polaroid-camera-that-prints-gifs-1637404"},
-			{"publication":"Hackster.io","link":"https://blog.hackster.io/instagif-is-a-polaroid-camera-that-prints-gifs-instantly-5c9f251b3e9b"},
-			
-			],
-		"link":[]
-	},
 	
-	{
-		"title":"Alexa Sign Language",
-		"slug":"alexa-sign-language",
-		"description":"An experiment to get Amazon Echo to respond to sign language which began with a simple question - 'If voice is the future of computing, what about those who cannot hear or speak?'",
-		"thumbnail":"./public/img/thumbnails/alexa.gif",
-		"media":[
-			{"path":"https://www.youtube.com/embed/kS53y6GWm0w","caption":"","type":"video"},
-
-		], //include embed link without iframe stufffor videos
-		"category":["code","play"],
-		"tags":["deeplearning",], // not used yet
-		"builtWith":["TensorFlow.js","Amazon Echo","Javascript"],
-		"role":["all code","concept","everything"],
-		"press":[
-			{"publication":"BBC","link":"https://www.bbc.com/news/technology-44891054"},
-			{"publication":"Mashable","link":"https://mashable.com/video/amazon-alexa-sign-language/"},
-			{"publication":"Verge","link":"https://www.theverge.com/2018/7/24/17606614/amazon-alexa-echo-mod-sign-language-gestures-ai"},
-			{"publication":"VentureBeat","link":"https://venturebeat.com/2018/07/24/amazon-alexa-mod-turns-sign-language-into-voice-commands/"},
-			{"publication":"Kottke","link":"https://kottke.org/18/07/making-amazon-alexa-respond-to-sign-language-using-ai"},
-			{"publication":"NowThis","link":"https://www.facebook.com/NowThisFuture/videos/alexa-can-now-understand-sign/2221206704587164/"},
-			{"publication":"FastCo","link":"https://www.fastcompany.com/90202730/this-clever-app-lets-amazon-alexa-read-sign-language"},
-			{"publication":"DigitalTrends","link":"https://www.digitaltrends.com/home/alexa-deaf-web-app/"},
-			],
-		"link":{"display":"Live Demo","link":"https://shekit.github.io/alexa-sign-language-translator/","status":"active"}
-	},
 	
 	{
 		"title":"Lumens",
