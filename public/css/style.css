@@ -58,7 +58,7 @@ h2 {
 }
 
 .big-subtitle {
-    color: #999;
+    color: #333;
     font-size: 14px;
 }
 
@@ -96,7 +96,7 @@ h2 {
     text-align: center;
 }
 
-#mc-embedded-subscribe {
+#mc-embedded-subscribe, #apply {
     width: 100%;
     border-radius: 0;
     border-color: orangered;
@@ -104,7 +104,7 @@ h2 {
     color: white;
 }
 
-#mc-embedded-subscribe:hover{
+#mc-embedded-subscribe:hover, #apply:hover{
     background: #f05a28;
 }
 
