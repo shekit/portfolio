@@ -196,6 +196,26 @@ window.projects = [
 		"link":[]
 	},
 	{
+    "title":"Mirror Selfie",
+    "slug":"mirror-selfie",
+    "description":"I wanted to remove phones from the notorious mirror selfie. This was my first attempt using deep learning",
+    "thumbnail":"./public/img/thumbnails/mirror.gif",
+    "media":[
+      {"path":"https://www.youtube.com/embed/BXwDPqzWilI","caption":"","type":"video"},
+
+    ], //include embed link without iframe stufffor videos
+    "category":["code","play"],
+    "tags":["tensorflow"], // not used yet
+    "builtWith":["tensorflow","keras"],
+    "role":["concept","code"],
+    "press":[
+
+      {"publication":"Twitter","link":"https://twitter.com/shekitup/status/1143909807587545088"},
+      {"publication":"Hackster","link":"https://blog.hackster.io/this-neural-network-will-remove-the-smartphone-from-your-mirror-selfies-a66f237fbee8"},
+      ],
+    "link":[]
+  },
+	{
     "title":"Roadrunner",
     "slug":"roadrunner",
     "description":"I wanted to bring one of my favorite cartoons to life, so here's Wile E. Coyote continuing his quest to catch the Roadrunner in AR. ",
