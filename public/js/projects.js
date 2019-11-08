@@ -348,7 +348,24 @@ window.projects = [
 			],
 		"link":[]
 	},
-	
+	{
+		"title":"Musical Chairs AR",
+		"slug":"musical-chairs",
+		"description":"I played a real world game of musical chairs against virtual characters using AR",
+		"thumbnail":"./public/img/thumbnails/avengers-ar.gif",
+		"media":[
+			{"path":"https://www.youtube.com/embed/mqd_6gdXgpk","caption":"","type":"video"}
+
+		], //include embed link without iframe stufffor videos
+		"category":["code","design"],
+		"tags":[""], // not used yet
+		"builtWith":["raspberry pi","unity3D","mixamo","arkit"],
+		"role":["code","sensors", "design", "concept"],
+		"press":[
+			{"publication":"Hackster","link":"https://www.hackster.io/news/playing-augmented-reality-musical-chairs-with-the-avengers-99b6a88a1bc4"},
+			],
+		"link":[]
+	},
 	
 	{
 		"title":"Lumens",
