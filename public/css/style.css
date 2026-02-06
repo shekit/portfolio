@@ -136,6 +136,7 @@ h2 {
 
 .formkit-alert-success {
     color: #0c905c;
+    font-weight: bold;
 }
 
 /** CATEGORY LINKS **/
