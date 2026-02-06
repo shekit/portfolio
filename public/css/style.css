@@ -90,13 +90,13 @@ h2 {
     color: #ef4136;
 }
 
-/** MAILCHIMP FORM **/
-#mce-EMAIL {
+/** CONVERTKIT FORM **/
+#ck-email {
     border-radius: 0;
     text-align: center;
 }
 
-#mc-embedded-subscribe, #apply {
+#ck-subscribe, #apply {
     width: 100%;
     border-radius: 0;
     border-color: orangered;
@@ -104,8 +104,38 @@ h2 {
     color: white;
 }
 
-#mc-embedded-subscribe:hover, #apply:hover{
+#ck-subscribe:hover, #apply:hover {
     background: #f05a28;
+}
+
+.formkit-spinner {
+    display: none;
+}
+
+.formkit-submit[data-active] .formkit-spinner {
+    display: inline-block;
+}
+
+.formkit-submit[data-active] .formkit-spinner ~ span {
+    display: none;
+}
+
+.formkit-alert:empty {
+    display: none;
+}
+
+.formkit-alert {
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.formkit-alert-error {
+    color: #ea4110;
+}
+
+.formkit-alert-success {
+    color: #0c905c;
 }
 
 /** CATEGORY LINKS **/
@@ -361,6 +391,15 @@ h2 {
 
 .carousel-control:hover, .carousel-control:focus {
     color: white;
+}
+
+.social-link {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.social-link:hover, .social-link:focus {
+    text-decoration: none;
 }
 
 /** CONTACT **/
